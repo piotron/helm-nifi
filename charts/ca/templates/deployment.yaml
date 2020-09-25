@@ -77,5 +77,5 @@ spec:
       volumes:
       - name: nifi-ca
         persistentVolumeClaim:
-          claimName: nifi-ca
+          claimName: "{{ template "ca.fullname" . }}-data"
 {{- end }}

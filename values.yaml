@@ -247,6 +247,8 @@ ca:
   token: sixteenCharacters
   admin:
     cn: admin
+  persistence:
+    enabled: false
 
 # ------------------------------------------------------------------------------
 # Zookeeper:
